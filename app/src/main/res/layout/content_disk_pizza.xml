@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bkground"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_disk_pizza"
+    tools:context=".DiskPizzaActivity">
+
+    <TextView
+        style="@style/TxtViewBt1"
+        android:id="@+id/txtBtnOp1"
+        android:clickable="true"
+        />
+
+    <TextView
+        style="@style/TxtViewBt2"
+        android:id="@+id/txtBtnCtt"
+        android:clickable="true"
+        />
+
+    <TextView
+        style="@style/TxtViewBt3"
+        android:id="@+id/txtBtnSab"
+        android:clickable="true"
+        />
+
+    <TextView
+        style="@style/TxtViewBt4"
+        android:id="@+id/txtBtnProm"
+        android:clickable="true"
+        />
+
+
+</LinearLayout>

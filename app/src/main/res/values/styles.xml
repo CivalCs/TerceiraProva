@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- My Styles -->
+    <style name="ImageView" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TxtViewBt1" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:textColor">@color/textBtn</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:drawableTop">@drawable/menu</item>
+        <!--<item name="android:text">@string/icone_um</item>-->
+   </style>
+   <style name="TxtViewBt2" parent="AppTheme">
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:layout_marginTop">-121dp</item>
+       <item name="android:layout_marginRight">25dp</item>
+       <item name="android:layout_gravity">right</item>
+       <item name="android:gravity">center</item>
+       <item name="android:textColor">@color/textBtn</item>
+       <item name="android:textSize">16dp</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:drawableTop">@drawable/contato</item>
+       <!--<item name="android:text">@string/icone_dois</item>-->
+    </style>
+    <style name="TxtViewBt3" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:textColor">@color/textBtn</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:drawableTop">@drawable/sabores</item>
+        <!--<item name="android:text">@string/icone_um</item>-->
+    </style>
+    <style name="TxtViewBt4" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">-121dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/textBtn</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:drawableTop">@drawable/promocao</item>
+        <!--<item name="android:text">@string/icone_dois</item>-->
+    </style>
+    <!-- end my styles-->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
